@@ -1,0 +1,57 @@
+
+.calculator-case {
+    width: 400px; 
+    margin: 0 auto; /* Center the case horizontally */
+    padding: 20px;
+    background-color: #e0dcdc; 
+    border: 1px solid #000000; 
+    border-radius: 10px; /* Rounded corners for the case */
+}
+
+#result {
+    margin: 0 auto; /* Center text box horizontally */
+    display: block; /* Ensure block-level centering */
+}
+
+body {
+    background-color: #333; 
+    margin: 0; 
+    padding: 0; 
+}
+
+table { 
+    margin-left: auto; 
+    margin-right: auto; 
+} 
+
+input[type="button"] {
+    font-family: 'Seven Segment', sans-serif;
+    width: 100%;
+    padding: 20px 40px;
+    background-image: url('alien.png'); 
+    background-size: cover; /* Resize the image to cover the button */
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: #e0dcdc;
+}
+
+input[type="button"]:hover {
+    background-color: #4acd57; 
+}
+
+input[type="button"]:active {
+    background-color: #17692a; 
+}
+
+input[type="text"] { 
+    font-family: 'Seven Segment', sans-serif;
+    padding: 20px 30px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+} 
